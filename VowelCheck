@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class VowelCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine().toLowerCase();    // Convert to lowercase for easy checking
+        if (input.matches(".*[aeiou].*")) {
+            System.out.println("The string contains a vowel.");
+        } else {
+            System.out.println("The string does not contain a vowel.");
+        }
+    }
+}
