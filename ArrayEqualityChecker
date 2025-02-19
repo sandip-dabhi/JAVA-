@@ -1,0 +1,35 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ArrayEqualityChecker {
+    public static boolean areArraysEqual(int[] arr1, int[] arr2) {
+        // If lengths are different, arrays cannot be the same
+        if (arr1.length != arr2.length) {
+            return false;
+        }
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        return Arrays.equals(arr1, arr2);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the arrays: ");
+        int size = scanner.nextInt();
+        int[] array1 = new int[size];
+        int[] array2 = new int[size];
+        System.out.println("Enter elements for the first array: ");
+        for (int i = 0; i < size; i++) {
+            array1[i] = scanner.nextInt();
+        }
+        System.out.println("Enter elements for the second array: ");
+        for (int i = 0; i < size; i++) {
+            array2[i] = scanner.nextInt();
+        }
+        if (areArraysEqual(array1, array2)) {
+            System.out.println("The arrays contain the same elements.");
+        } else {
+            System.out.println("The arrays do not contain the same elements.");
+        }
+    }
+}
