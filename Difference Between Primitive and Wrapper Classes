@@ -1,0 +1,4 @@
+Difference Between Primitive and Wrapper Classes
+Primitive data types in Java are basic built-in types such as int, double, char, and boolean. These types are stored in stack memory and are more memory-efficient. They cannot be null and are used primarily for simple arithmetic operations.
+
+Wrapper classes, such as Integer, Double, and Boolean, are object representations of primitive types. They are stored in heap memory and provide additional functionalities, such as allowing primitives to be used in collections (ArrayList<Integer>, for example). Unlike primitive types, wrapper objects can be null.
