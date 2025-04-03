@@ -1,0 +1,11 @@
+What are the features of Java?
+Java is a popular object-oriented, high-level programming language known for its platform independence and security. Its key features include:
+
+ Platform Independence – Java programs run on any OS with JVM (Write Once, Run Anywhere).
+ Object-Oriented – Java follows OOP principles like Encapsulation, Inheritance, Polymorphism, and Abstraction.
+ Automatic Memory Management – Uses Garbage Collection (GC) to free memory automatically.
+ Multithreading Support – Allows multiple threads to run concurrently for better performance.
+ Secure – Features like bytecode verification, Security Manager, and no explicit pointers enhance security.
+ Robust – Strong type checking, exception handling, and memory management prevent crashes.
+ Rich Standard Library – Provides APIs for networking, database connectivity (JDBC), collections, etc.
+
