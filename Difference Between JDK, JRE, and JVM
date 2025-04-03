@@ -1,0 +1,6 @@
+Difference Between JDK, JRE, and JVM
+JDK (Java Development Kit) includes the JRE along with development tools such as the compiler (javac), debugger, and other utilities needed to develop Java applications. It is required for both writing and running Java programs.
+
+JRE (Java Runtime Environment) consists of the JVM and essential libraries needed to run Java applications. It does not contain development tools, so it is used only for executing Java programs, not for writing or compiling them.
+
+JVM (Java Virtual Machine) is a part of the JRE and is responsible for converting Java bytecode into machine code for execution. It ensures platform independence by allowing Java applications to run on any operating system that has a compatible JVM.
