@@ -1,0 +1,6 @@
+What is the difference between String, StringBuilder, and StringBuffer?
+String is immutable, meaning once it's created, it can't be changed. Any operation like concatenation creates a new object.
+
+StringBuilder is mutable and used to modify strings without creating new ones. It’s faster and not thread-safe.
+
+StringBuffer is also mutable, but it is thread-safe, meaning it's safe to use in multi-threaded environments.
