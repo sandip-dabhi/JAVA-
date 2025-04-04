@@ -1,0 +1,4 @@
+Explain == vs .equals() in Java
+== is a reference comparison operator. It checks if two variables point to the same object in memory.
+
+.equals() is a content comparison method. It checks if two objects have equal values or contents.
