@@ -1,4 +1,3 @@
 What is autoboxing and unboxing?
 Autoboxing is the automatic conversion of a primitive type to its wrapper class.
-
 Unboxing is the reverse—converting a wrapper class back to a primitive.
