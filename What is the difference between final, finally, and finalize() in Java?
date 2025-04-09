@@ -1,0 +1,10 @@
+What is the difference between final, finally, and finalize() in Java?
+final is a keyword used to restrict modification:
+
+A final variable cannot be changed once assigned.
+
+A final method cannot be overridden.
+
+A final class cannot be extended.
+
+finally is a block used in exception handling. It always executes after try-catch, whether an exception occurs or not.
