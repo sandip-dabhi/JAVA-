@@ -1,0 +1,22 @@
+What is method overloading and method overriding?
+Method Overloading: Defining multiple methods in the same class with the same name but different parameters (type, number, or order).
+
+Happens at compile time.
+
+Example:
+void show(int a) {}
+void show(String b) {}
+Method Overriding: Redefining a method from the parent class in the child class with same signature.
+
+Happens at runtime.
+Requires inheritance.
+
+Example:
+
+class Animal {
+    void sound() { System.out.println("Animal sound"); }
+}
+
+class Dog extends Animal {
+    void sound() { System.out.println("Bark"); }
+}
