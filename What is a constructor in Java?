@@ -1,0 +1,20 @@
+What is a constructor in Java?
+A constructor is a special method that is called when an object is created. It has the same name as the class and no return type (not even void).
+
+Key points:
+It can be default (no parameters) or parameterized.
+
+You can overload constructors by changing parameters.
+
+If you don’t define one, Java provides a default constructor.
+
+public class Student {
+    int id;
+    String name;
+
+    // Constructor
+    public Student(int i, String n) {
+        id = i;
+        name = n;
+    }
+}
