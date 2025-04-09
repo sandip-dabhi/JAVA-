@@ -8,3 +8,5 @@ A final method cannot be overridden.
 A final class cannot be extended.
 
 finally is a block used in exception handling. It always executes after try-catch, whether an exception occurs or not.
+
+finalize() is a method from the Object class that the garbage collector calls before destroying an object. It’s rarely used now and is considered deprecated in recent Java versions.
