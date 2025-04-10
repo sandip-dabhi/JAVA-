@@ -1,0 +1,21 @@
+What are access modifiers in Java?
+Access modifiers define visibility and accessibility of classes, methods, and variables.
+
+There are 4 main types:
+
+public – accessible from anywhere
+
+private – accessible only within the same class
+
+protected – accessible within the same package and by subclasses
+
+(default) – no modifier: accessible within the same package only
+
+Example:
+
+public class Example {
+    private int a;          // accessible only within this class
+    public int b;           // accessible from any class
+    protected int c;        // accessible in same package and subclasses
+    int d;                  // default access
+}
