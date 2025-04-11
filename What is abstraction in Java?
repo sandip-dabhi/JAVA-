@@ -1,0 +1,20 @@
+What is abstraction in Java?
+Abstraction is the concept of hiding implementation details and showing only the essential features of an object.
+
+You can achieve abstraction using:
+
+Abstract classes (using abstract keyword)
+
+Interfaces
+
+Example using an abstract class:
+
+abstract class Shape {
+    abstract void draw();
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing Circle");
+    }
+}
