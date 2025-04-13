@@ -1,0 +1,23 @@
+What is exception handling in Java?
+Exception handling is a mechanism to handle runtime errors (exceptions) so that the normal flow of the application is not interrupted.
+
+Java provides try, catch, finally, throw, and throws keywords for this.
+
+Example:
+try {
+    int a = 5 / 0;  // This will throw ArithmeticException
+} catch (ArithmeticException e) {
+    System.out.println("Cannot divide by zero!");
+} finally {
+    System.out.println("This block always executes.");
+}
+try block contains risky code
+
+catch handles the exception
+
+finally runs whether an exception occurs or not
+
+throw is used to manually throw an exception
+
+throws declares exceptions in method signature
+
