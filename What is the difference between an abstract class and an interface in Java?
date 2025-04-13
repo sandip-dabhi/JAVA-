@@ -1,0 +1,33 @@
+What is the difference between an abstract class and an interface in Java?
+
+----Abstract Class----
+
+Can have both abstract and non-abstract methods
+
+Can have constructors and instance variables
+
+Supports inheritance (extends one abstract class)
+
+Use when classes are closely related
+
+----Interface----
+
+Contains only abstract methods (until Java 7)
+
+From Java 8+, can have default and static methods
+
+Can only contain public static final variables
+
+Supports multiple inheritance (a class can implement many interfaces)
+
+Example:
+abstract class Animal {
+    abstract void makeSound();
+    void sleep() {
+        System.out.println("Sleeping...");
+    }
+}
+
+interface Flyable {
+    void fly();
+}
