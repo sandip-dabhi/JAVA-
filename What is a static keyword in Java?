@@ -1,0 +1,19 @@
+What is a static keyword in Java?
+The static keyword is used for class-level members (not tied to object instances). It can be applied to:
+
+Variables – shared by all instances
+
+Methods – can be called without creating an object
+
+Blocks – used for static initialization
+
+Nested classes
+
+Example:
+class Demo {
+    static int count = 0;
+
+    static void showCount() {
+        System.out.println("Count: " + count);
+    }
+}
