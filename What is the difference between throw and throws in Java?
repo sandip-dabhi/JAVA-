@@ -1,0 +1,13 @@
+What is the difference between throw and throws in Java?
+throw is used to manually throw an exception in the program.
+
+throws is used to declare exceptions that a method might throw.
+
+Example of throw:
+throw new IllegalArgumentException("Invalid input");
+
+Example of throws:
+public void readFile() throws IOException {
+    // some code that might throw IOException
+}
+Use throw to raise an exception, and throws to inform callers that an exception might occur.
