@@ -1,0 +1,15 @@
+What are checked and unchecked exceptions in Java?
+Checked exceptions are checked at compile time. You must handle them using try-catch or declare them with throws.
+
+Example: IOException, SQLException
+
+Unchecked exceptions are checked at runtime. They are subclasses of RuntimeException.
+
+Example: NullPointerException, ArithmeticException
+
+Example:
+
+// Checked exception
+FileReader file = new FileReader("test.txt"); 
+// Unchecked exception
+int x = 5 / 0; 
