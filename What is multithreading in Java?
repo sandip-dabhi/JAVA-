@@ -1,0 +1,23 @@
+What is multithreading in Java?
+Multithreading allows multiple parts of a program to run simultaneously to improve performance, especially on multi-core processors.
+
+Each thread runs independently but shares the same memory space.
+
+You can create threads in two ways:
+
+Extending Thread class
+
+Implementing Runnable interface
+
+Example:
+
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running...");
+    }
+}
+
+MyThread t = new MyThread();
+t.start();  // starts the thread
+Multithreading is useful for tasks like file processing, downloading, animations, etc.
+
