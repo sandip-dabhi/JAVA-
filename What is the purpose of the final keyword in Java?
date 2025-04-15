@@ -1,0 +1,17 @@
+What is the purpose of the final keyword in Java?
+The final keyword is used to prevent modification. It can be applied to:
+
+Variables – value cannot be changed after initialization.
+
+Methods – cannot be overridden in a subclass.
+
+Classes – cannot be extended.
+
+Example:
+
+final int x = 10;
+// x = 20;  // Error: can't change final variable
+
+final class Animal {}
+// class Dog extends Animal {}  // Error: can't extend final class
+It’s used to create constants and enforce immutability or inheritance restrictions.
