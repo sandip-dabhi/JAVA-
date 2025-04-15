@@ -1,0 +1,18 @@
+What is the difference between this and super?
+this refers to the current class instance.
+
+super refers to the parent class instance.
+
+Example:
+class A {
+    int x = 10;
+}
+
+class B extends A {
+    int x = 20;
+
+    void print() {
+        System.out.println(this.x);   // 20 (current class)
+        System.out.println(super.x);  // 10 (parent class)
+    }
+}
